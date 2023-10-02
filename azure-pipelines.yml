@@ -7,9 +7,7 @@ trigger:
 - master
 
 pool:
-  name: Default
-  demands: SpecialSoftware
-
+  vmImage: ubuntu-latest
 steps:
 - task: Maven@3
   inputs:
